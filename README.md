@@ -11,8 +11,8 @@ To run it on your local machine,
 
 ```export COMPOSE_DOCKER_CLI_BUILD=0```
 
-```docker build -t image .```
+```docker build -t project .```
 
-```docker run -p 8888:8888 image```
+```docker run -p 8888:8888 project```
 
 Finally, copy and paste one of the URLs into your browser. This will launch you into the Jupyter notebook! Make sure to download the edited notebook to your local computer before leaving the session. 
