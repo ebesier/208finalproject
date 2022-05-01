@@ -16,3 +16,19 @@ To run it on your local machine,
 ```docker run -p 8888:8888 project```
 
 Finally, copy and paste one of the URLs into your browser. This will launch you into the Jupyter notebook! Make sure to download the edited notebook to your local computer before leaving the session. 
+
+### Sythetic datasets
+
+#### Netflix
+
+- first version -> `checkpoints` {epsilon: 338.63 , accuracy: 53.85%}
+
+- updated version -> `checkpoints_6` {epsilon: 29.92, accuracy: 49.72%}
+
+#### PUMs
+
+- first version -> `checkpoints_PUMs` {epsilon: 158.48 , accuracy: 60.8%}
+
+- updated version -> `checkpoints_7` {epsilon: 19.2, accuracy: 68.3%}
+
+    - The weird decrease in espilon in accuracy could potentially be attributed to teh fact that in the second batch I exclude the index column
